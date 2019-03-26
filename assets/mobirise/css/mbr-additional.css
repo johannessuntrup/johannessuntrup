@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -20,11 +21,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-family: 'Permanent Marker', handwriting;
+  font-size: 4.4rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 7.04rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -61,9 +62,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.52rem;
+    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -1409,10 +1410,10 @@ body {
 }
 .cid-rlOA7qbEhd .mbr-author-name {
   font-weight: bold;
-  color: #232;
+  color: #232323;
 }
 .cid-rlOA7qbEhd .mbr-author-desc {
-  color: #232;
+  color: #232323;
 }
 @media (max-width: 991px) {
   .cid-rlOA7qbEhd .mbr-figure,
@@ -1441,4 +1442,16 @@ body {
 }
 .cid-rlOCtG5BsB H2 {
   text-align: center;
+}
+.cid-rlP579VOMU {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rlP579VOMU .mbr-iconfont-social {
+  font-size: 32px;
+  color: #232323;
+}
+.cid-rlP579VOMU .social-list a:focus {
+  text-decoration: none;
 }
