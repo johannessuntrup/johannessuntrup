@@ -1423,6 +1423,9 @@ body {
     margin: auto;
   }
 }
+.cid-rlOA7qbEhd .testimonial-text SPAN {
+  color: #232323;
+}
 .cid-rlOCtG5BsB {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1444,7 +1447,7 @@ body {
   text-align: center;
 }
 .cid-rlP579VOMU {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 90px;
   background: linear-gradient(0deg, #ffffff, #ffffff);
 }
